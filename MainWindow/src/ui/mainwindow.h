@@ -5,6 +5,7 @@
 #include "qtheaders.h"
 #include "qtstyles.h"
 #include "singleton.h"
+#include "centralwidget.h"
 
 class MainWindow : public QMainWindow
 {
@@ -22,8 +23,31 @@ public:
         FULLSCREEN,
     } window_state;
 
+protected:
+    void initUI();
+    void initConnect();
+
+    void initMenu();
+
+    virtual void keyPressEvent(QKeyEvent* e);
+    virtual void changeEvent(QEvent* e);
+
 public slots:
+    void about();
+    void fullscreen();
+
+    void onMVStyleSelected(int id);
     void mv_fullscreen();
+
+    void OpenMediaDlg(int index);
+public:
+    QAction *actMenubar;
+    QAction *actFullscreen;
+    QAction *actMvFullscreen;
+
+    QVector<QToolBar*> toolbars;
+
+    CentralWidget* center;
 };
 
 #define g_mainwnd MainWindow::instance()

@@ -20,26 +20,66 @@ UI_DIR          = build/ui
 OBJECTS_DIR     = build/obj
 
 DEFINES += QT_DEPRECATED_WARNINGS
-#RESOURCES += rc/skin.qrc rc/image.qrc
-#TRANSLATIONS = rc/lang/app_zh_CN.ts rc/lang/app_zh_CN.qm
+RESOURCES += rc/skin.qrc rc/image.qrc
+TRANSLATIONS = rc/lang/app_zh_CN.ts rc/lang/app_zh_CN.qm
 
 INCLUDEPATH += src
-
-#global
-SOURCES += \
-    src/main.cpp
-
-HEADERS += src/appdef.h src/confile.h src/avdef.h
 
 #ui
 INCLUDEPATH += src/ui
 SOURCES +=\
-    src/ui/mainwindow.cpp
+    src/ui/glwnd.cpp \
+    src/ui/mainwindow.cpp \
+    src/ui/centralwidget.cpp \
+    src/ui/lsidewidget.cpp \
+    src/ui/multiview.cpp \
+    src/ui/openmediadlg.cpp \
+    src/ui/rsidewidget.cpp \
+    src/ui/sdl2wnd.cpp \
+    src/ui/videotitlebar.cpp \
+    src/ui/videotoolbar.cpp \
+    src/ui/videowidget.cpp \
+    src/ui/videownd.cpp \
+    src/ui/ytable.cpp \
+    src/video/yffplayer.cpp
+
 
 HEADERS += \
+    src/qt/custom_event_type.h \
+    src/ui/glwnd.h \
     src/ui/mainwindow.h \
+    src/ui/openmediadlg.h \
     src/ui/qtstyles.h \
+    src/ui/centralwidget.h \
+    src/ui/lsidewidget.h \
+    src/ui/multiview.h \
+    src/ui/rsidewidget.h \
+    src/ui/sdl2wnd.h \
+    src/ui/videotitlebar.h \
+    src/ui/videotoolbar.h \
+    src/ui/videowidget.h \
+    src/ui/videownd.h \
+    src/ui/videowndfactory.h \
+    src/ui/ytable.h \
+    src/video/media.h \
+    src/video/videoplayer.h \
+    src/video/yffplayer.h
 
+
+#video
+INCLUDEPATH += src/video
+SOURCES += \
+
+HEADERS += \
+    src/video/videoplayerfactory.h\
+
+#global
+INCLUDEPATH += 3rd/include
+
+SOURCES += \
+    src/main.cpp \
+
+HEADERS += src/appdef.h src/confile.h src/avdef.h \
 
 # win32
 INCLUDEPATH += src/win32
@@ -52,10 +92,11 @@ HEADERS += \
     src/util/ffmpeg_util.h \
     src/util/sdl_util.h \
     src/util/hgl.h \
-    src/util/hframe.h \
     src/util/hgui.h \
+    src/util/yframe.h
 
-SOURCES += src/util/hframe.cpp
+SOURCES += \
+    src/util/yframe.cpp
 
 # GL
 DEFINES += GLEW_STATIC
@@ -66,14 +107,14 @@ SOURCES += src/GL/glew.c
 # qt
 INCLUDEPATH += src/qt
 HEADERS += \
+    src/qt/glwidget.h \
     src/qt/qtheaders.h \
     src/qt/qtfunctions.h \
     src/qt/qtrcloader.h \
-    src/qt/HGLWidget.h \
 
 SOURCES += \
+    src/qt/glwidget.cpp \
     src/qt/qtrcloader.cpp \
-    src/qt/HGLWidget.cpp \
 
 # hv
 DEFINES += HV_SOURCE
@@ -104,6 +145,9 @@ SOURCES += \
     src/hv/base/hstring.cpp \
     src/hv/utils/iniparser.cpp \
 
+# SDL
+LIBS += -lSDL2
+
 
 win32 {
     DEFINES += WIN32_LEAN_AND_MEAN
@@ -116,12 +160,12 @@ win32 {
     ##        -lopencv_videoio341     \
 
     ## FFmpeg
-#    LIBS += -lavformat      \
-#            -lavdevice      \
-#            -lavcodec       \
-#            -lswresample    \
-#            -lswscale       \
-#            -lavutil        \
+    LIBS += -lavformat      \
+            -lavdevice      \
+            -lavcodec       \
+            -lswresample    \
+            -lswscale       \
+            -lavutil        \
 
     ## Windows API
     LIBS += -lkernel32    \
@@ -160,12 +204,12 @@ win32 {
         }
 
         # for ffmpeg staticlib
-#        LIBS += -liconv \
-#        -lz     \
-#        -lbz2   \
-#        -llzma  \
-#        -lcrypto \
-#        -lbcrypt
+        LIBS += -liconv \
+        -lz     \
+        -lbz2   \
+        -llzma  \
+        -lcrypto \
+        -lbcrypt
     }
 }
 

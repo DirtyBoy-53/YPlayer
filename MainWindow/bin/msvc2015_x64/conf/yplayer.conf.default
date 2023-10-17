@@ -35,6 +35,9 @@ draw_time = true
 draw_fps = true
 draw_resolution = true
 
+# [LeftToolBarArea = 1, RightToolBarArea = 2, TopToolBarArea = 4, BottomToolBarArea = 8]
+toolbar_location = 1
+
 [video]
 frame_cache = 5
 # fps = 25

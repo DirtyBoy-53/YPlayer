@@ -41,4 +41,6 @@
 #define DRAG_QSS    "border:3px groove #FF8C00"
 #define RECT_QSS    "border:2px solid red"
 
+#define TOOLBAR_LOCATION    1   //toolbar default location
+
 #endif // QT_STYLES_H

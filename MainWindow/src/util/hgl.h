@@ -2,7 +2,7 @@
 #define HV_GL_H_
 
 #include "glew.h"
-#include "hframe.h"
+#include "yframe.h"
 
 // GL PixelFormat extend
 #define GL_I420             0x1910  // YYYYYYYYUUVV
@@ -20,7 +20,7 @@
 
 typedef struct GLTexture_s {
     unsigned int id;  // for glGenTextures
-    HFrame frame;
+    YFrame frame;
 } GLTexture;
 
 #endif // HV_GL_H_
