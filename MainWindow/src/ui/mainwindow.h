@@ -39,7 +39,7 @@ public slots:
     void onMVStyleSelected(int id);
     void mv_fullscreen();
 
-    void OpenMediaDlg(int index);
+    void openMediaDlg(int index);
 public:
     QAction *actMenubar;
     QAction *actFullscreen;

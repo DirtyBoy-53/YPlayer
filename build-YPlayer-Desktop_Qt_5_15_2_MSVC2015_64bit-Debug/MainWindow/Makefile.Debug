@@ -696,6 +696,7 @@ build\moc\moc_mainwindow.cpp: ..\..\MainWindow\src\ui\mainwindow.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -1203,6 +1204,7 @@ build\moc\moc_openmediadlg.cpp: ..\..\MainWindow\src\ui\openmediadlg.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -1716,6 +1718,7 @@ build\moc\moc_centralwidget.cpp: ..\..\MainWindow\src\ui\centralwidget.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -2539,6 +2542,7 @@ build\moc\moc_multiview.cpp: ..\..\MainWindow\src\ui\multiview.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -3149,6 +3153,7 @@ build\moc\moc_videotitlebar.cpp: ..\..\MainWindow\src\ui\videotitlebar.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -3660,6 +3665,7 @@ build\moc\moc_videotoolbar.cpp: ..\..\MainWindow\src\ui\videotoolbar.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -4171,6 +4177,7 @@ build\moc\moc_videowidget.cpp: ..\..\MainWindow\src\ui\videowidget.h \
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -4795,6 +4802,7 @@ build\obj\glwnd.obj: ..\..\MainWindow\src\ui\glwnd.cpp ..\..\MainWindow\src\ui\g
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -5411,6 +5419,7 @@ build\obj\mainwindow.obj: ..\..\MainWindow\src\ui\mainwindow.cpp ..\..\MainWindo
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -5916,6 +5925,7 @@ build\obj\centralwidget.obj: ..\..\MainWindow\src\ui\centralwidget.cpp ..\..\Mai
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -6734,6 +6744,7 @@ build\obj\multiview.obj: ..\..\MainWindow\src\ui\multiview.cpp ..\..\MainWindow\
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -7234,6 +7245,7 @@ build\obj\openmediadlg.obj: ..\..\MainWindow\src\ui\openmediadlg.cpp ..\..\MainW
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -7853,6 +7865,7 @@ build\obj\sdl2wnd.obj: ..\..\MainWindow\src\ui\sdl2wnd.cpp ..\..\MainWindow\src\
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -8409,6 +8422,7 @@ build\obj\videotitlebar.obj: ..\..\MainWindow\src\ui\videotitlebar.cpp ..\..\Mai
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -8918,6 +8932,7 @@ build\obj\videotoolbar.obj: ..\..\MainWindow\src\ui\videotoolbar.cpp ..\..\MainW
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -9427,6 +9442,7 @@ build\obj\videowidget.obj: ..\..\MainWindow\src\ui\videowidget.cpp ..\..\MainWin
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -10032,6 +10048,7 @@ build\obj\videownd.obj: ..\..\MainWindow\src\ui\videownd.cpp ..\..\MainWindow\sr
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -10536,7 +10553,8 @@ build\obj\videownd.obj: ..\..\MainWindow\src\ui\videownd.cpp ..\..\MainWindow\sr
 
 build\obj\ytable.obj: ..\..\MainWindow\src\ui\ytable.cpp ..\..\MainWindow\src\ui\ytable.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
-		..\..\MainWindow\src\hv\base\hplatform.h
+		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h
 
 build\obj\yffplayer.obj: ..\..\MainWindow\src\video\yffplayer.cpp ..\..\MainWindow\src\video\yffplayer.h \
 		..\..\MainWindow\src\video\videoplayer.h \
@@ -10546,6 +10564,7 @@ build\obj\yffplayer.obj: ..\..\MainWindow\src\video\yffplayer.cpp ..\..\MainWind
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\base\hstring.h \
@@ -10596,6 +10615,7 @@ build\obj\main.obj: ..\..\MainWindow\src\main.cpp ..\..\MainWindow\src\qt\qthead
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\hv.h \
@@ -11206,6 +11226,7 @@ build\obj\yframe.obj: ..\..\MainWindow\src\util\yframe.cpp ..\..\MainWindow\src\
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\base\hlog.h
@@ -11224,6 +11245,7 @@ build\obj\glwidget.obj: ..\..\MainWindow\src\qt\glwidget.cpp ..\..\MainWindow\sr
 		..\..\MainWindow\src\hv\base\hbuf.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\util\hgui.h \
@@ -11441,11 +11463,13 @@ build\obj\hversion.obj: ..\..\MainWindow\src\hv\base\hversion.c ..\..\MainWindow
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\htime.h
 
 build\obj\hbase.obj: ..\..\MainWindow\src\hv\base\hbase.c ..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hatomic.h
 
@@ -11454,7 +11478,8 @@ build\obj\herr.obj: ..\..\MainWindow\src\hv\base\herr.c ..\..\MainWindow\src\hv\
 
 build\obj\htime.obj: ..\..\MainWindow\src\hv\base\htime.c ..\..\MainWindow\src\hv\base\htime.h \
 		..\..\MainWindow\src\hv\hexport.h \
-		..\..\MainWindow\src\hv\base\hplatform.h
+		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h
 
 build\obj\hlog.obj: ..\..\MainWindow\src\hv\base\hlog.c ..\..\MainWindow\src\hv\base\hlog.h \
 		..\..\MainWindow\src\hv\hexport.h
@@ -11463,6 +11488,7 @@ build\obj\hstring.obj: ..\..\MainWindow\src\hv\base\hstring.cpp ..\..\MainWindow
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\base\hbase.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hmap.h
 
@@ -11470,6 +11496,7 @@ build\obj\iniparser.obj: ..\..\MainWindow\src\hv\utils\iniparser.cpp ..\..\MainW
 		..\..\MainWindow\src\hv\hexport.h \
 		..\..\MainWindow\src\hv\base\hdef.h \
 		..\..\MainWindow\src\hv\base\hplatform.h \
+		..\..\MainWindow\src\hv\hconfig.h \
 		..\..\MainWindow\src\hv\base\herr.h \
 		..\..\MainWindow\src\hv\base\hstring.h \
 		..\..\MainWindow\src\hv\base\hbase.h \

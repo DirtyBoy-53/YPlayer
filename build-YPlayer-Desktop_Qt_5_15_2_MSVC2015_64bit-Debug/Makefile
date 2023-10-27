@@ -247,6 +247,7 @@ Makefile: ..\YPlayer.pro F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\win32-msvc\qm
 		F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\qt_config.prf \
 		F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\win32-msvc\qmake.conf \
 		F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\spec_post.prf \
+		.qmake.stash \
 		F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\exclusive_builds.prf \
 		F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\common\msvc-version.conf \
 		F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\toolchain.prf \
@@ -442,6 +443,7 @@ F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\qt_functions.prf:
 F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\qt_config.prf:
 F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\win32-msvc\qmake.conf:
 F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\spec_post.prf:
+.qmake.stash:
 F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\exclusive_builds.prf:
 F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\common\msvc-version.conf:
 F:\Computer\Qt\5.15.2\msvc2015_64\mkspecs\features\toolchain.prf:

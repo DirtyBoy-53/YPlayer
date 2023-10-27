@@ -2,7 +2,7 @@
 #include "appdef.h"
 #include "confile.h"
 #include "qtstyles.h"
-
+#include "openmediadlg.h"
 SINGLETON_IMPL(MainWindow)
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -49,7 +49,7 @@ void MainWindow::initMenu()
     QAction* actOpenFile = new QAction(QIcon(":/image/file.png"), tr(" Open File"));
     actOpenFile->setShortcut(QKeySequence("Ctrl+F"));
     connect(actOpenFile, &QAction::triggered, this, [=](){
-        OpenMediaDlg(MEDIA_TYPE_FILE);
+        openMediaDlg(MEDIA_TYPE_FILE);
     });
     mediaMenu->addAction(actOpenFile);
     mediaToolbar->addAction(actOpenFile);
@@ -57,7 +57,7 @@ void MainWindow::initMenu()
     QAction* actOpenNetwork = new QAction(QIcon(":/image/network.png"), tr(" Open Network"));
     actOpenNetwork->setShortcut(QKeySequence("Ctrl+N"));
     connect(actOpenNetwork, &QAction::triggered, this, [=](){
-        OpenMediaDlg(MEDIA_TYPE_NETWORK);
+        openMediaDlg(MEDIA_TYPE_NETWORK);
     });
     mediaMenu->addAction(actOpenNetwork);
     mediaToolbar->addAction(actOpenNetwork);
@@ -65,7 +65,7 @@ void MainWindow::initMenu()
     QAction* actOpenCapture = new QAction(QIcon(":/image/capture.png"), tr(" Open Capture"));
     actOpenCapture->setShortcut(QKeySequence("Ctrl+C"));
     connect(actOpenCapture, &QAction::triggered, this, [=](){
-        OpenMediaDlg(MEDIA_TYPE_CAPTURE);
+        openMediaDlg(MEDIA_TYPE_CAPTURE);
     });
     mediaMenu->addAction(actOpenCapture);
     mediaToolbar->addAction(actOpenCapture);
@@ -295,8 +295,12 @@ void MainWindow::mv_fullscreen()
     actMvFullscreen->setChecked(is_mv_fullscreen);
 }
 
-void MainWindow::OpenMediaDlg(int index)
+void MainWindow::openMediaDlg(int index)
 {
-
+    OpenMediaDlg dlg(this);
+    dlg.tab->setCurrentIndex(index);
+    if (dlg.exec() == QDialog::Accepted) {
+        center->mv->play(dlg.media);
+    }
 }
 

@@ -109,17 +109,19 @@ VideoWidget* MultiView::getIdlePlayer() {
     return NULL;
 }
 
-#define SEPARATOR_LINE_WIDTH 1
+#define SEPARATOR_LINE_WIDTH 1  //video Widget之间的间距
+#include <QDebug>
 void MultiView::updateUI() {
-    int row = table.row;
-    int col = table.col;
+    int row = table.row;//窗口布局总行数
+    int col = table.col;//窗口布局总列数
     if (row == 0 || col == 0) return;
-    int cell_w = width()/col;
-    int cell_h = height()/row;
-
+    int cell_w = width()/col;//获取单个video widget宽度
+    int cell_h = height()/row;//获取单个video widget高度
+    auto w = width();
+    auto h = height();
     int margin_x = (width() - cell_w * col) / 2;
     int margin_y = (height() - cell_h * row) / 2;
-    int x = margin_x;
+    int x = margin_x;//应该是没有办法完全平分的时候 留一些 页边空白 使用的吧
     int y = margin_y;
     for (int i = 0; i < views.size(); ++i) {
         views[i]->hide();
@@ -138,12 +140,11 @@ void MultiView::updateUI() {
                     ++cnt;
                 }
             }
-            x += cell_w;
+            x += cell_w;//调整x起始点
         }
-        x = margin_x;
-        y += cell_h;
+        x = margin_x;//multiview widget窗口左上角（考虑页边空白）
+        y += cell_h;//调整y起始点
     }
-
     bStretch = (cnt == 1);
 }
 

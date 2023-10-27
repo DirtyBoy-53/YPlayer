@@ -20,7 +20,7 @@
     </message>
 </context>
 <context>
-    <name>HMultiView</name>
+    <name>MultiView</name>
     <message>
         <source>Info</source>
         <translation>消息</translation>
@@ -31,7 +31,7 @@
     </message>
 </context>
 <context>
-    <name>HOpenMediaDlg</name>
+    <name>OpenMediaDlg</name>
     <message>
         <source>Open media</source>
         <translation>打开媒体</translation>
@@ -58,14 +58,14 @@
     </message>
 </context>
 <context>
-    <name>HVideoTitlebar</name>
+    <name>VideoTitlebar</name>
     <message>
         <source>close</source>
         <translation>关闭</translation>
     </message>
 </context>
 <context>
-    <name>HVideoToolbar</name>
+    <name>VideoToolbar</name>
     <message>
         <source>start</source>
         <translation>开始</translation>
@@ -88,7 +88,7 @@
     </message>
 </context>
 <context>
-    <name>HVideoWidget</name>
+    <name>VideoWidget</name>
     <message>
         <source>Open media</source>
         <translation>打开媒体</translation>
@@ -113,7 +113,7 @@
     </message>
 </context>
 <context>
-    <name>HVideoWnd</name>
+    <name>VideoWnd</name>
     <message>
         <source>NO VIDEO</source>
         <translation type="vanished">无视频</translation>
